@@ -1,0 +1,8 @@
+#--tratamento de erros 400, 404, 500, ...
+#ErrorDocument 404 /pagina/index.php
+
+#--bloqueando pastas
+Options -Indexes
+
+#--definir pagina padrao
+DirectoryIndex ./index.php
